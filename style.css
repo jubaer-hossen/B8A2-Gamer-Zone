@@ -134,9 +134,29 @@ h3 {
     margin-top: 40px;
 }
 .card{
+    position: relative;
+    overflow: hidden;
     border-radius: 10px;
     box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.315);
 }
 .card img{
     width: 100%;
+    transition: transform 0.3s, filter 0.3s;
+    
+}
+.image-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F948B2;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.card img:hover{
+    filter: brightness(0.2);
+    transform: scale(1.05);
+}
+.card:hover .image-text {
+    opacity: 1;
 }
