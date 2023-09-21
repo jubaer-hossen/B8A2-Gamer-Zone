@@ -136,11 +136,13 @@ h3 {
 .card{
     position: relative;
     overflow: hidden;
+    /* width: 100%; */
     border-radius: 10px;
     box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.315);
 }
 .card img{
     width: 100%;
+    height: auto;
     transition: transform 0.3s, filter 0.3s;
     
 }
@@ -153,7 +155,7 @@ h3 {
     opacity: 0;
     transition: opacity 0.3s;
 }
-.card img:hover{
+.card:hover img {
     filter: brightness(0.2);
     transform: scale(1.05);
 }
