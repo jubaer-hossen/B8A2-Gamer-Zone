@@ -176,6 +176,10 @@ h3 {
     width: 35%;
     text-align: right;
 }
+.play-container2{
+    width: 35%;
+    text-align: left;
+}
 .play-section-img{
     width: 100%;
    
@@ -186,6 +190,14 @@ h3 {
     top: 320px;
     right: 430px; 
 }
+.top-img2{
+    position: absolute;
+    top: 340px;
+    left: 350px; 
+}
 .top-img img{
     width: 80%;
+}
+.top-img2 img{
+    width: 65%;
 }
