@@ -291,6 +291,52 @@ footer{
     .nav-section a{
         margin: 10px 0;
     }
+    .header-container{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+    }
+    .we-are-gamer{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .we-are-gamer div{
+        width: 100%;
+    }
+    .we-are-gamer img{
+        width: 100%;
+    }
 
-    
+    .online-games-card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .play-section{
+        flex-direction: column;
+    }
+    .more-games-container{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        width: 90%;
+        /* padding: 0; */
+    }
+    .more-games{
+        width: 100%;
+        padding: 2px 2px;
+        font-size: xx-small;
+    }
+    .more-games img{
+        width: 25%;
+        margin-right: 5px;
+    }
+
+    .footer-link{
+        flex-wrap: wrap;
+    }
+    .footer-link a{
+        padding: 10px;
+    }
+
+
 }
