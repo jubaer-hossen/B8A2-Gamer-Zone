@@ -70,11 +70,18 @@ nav {
 }
 
 /* header section  */
+.header-div{
+    
+    
+}
 .header-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 40vmax;
+    background-image: url('images/Group\ 14.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50% ;
 }
 
 .header-container img {
