@@ -162,3 +162,30 @@ h3 {
 .card:hover .image-text {
     opacity: 1;
 }
+
+/* play section  */
+.play-section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 0;
+    height: 90vh;
+}
+.play-container{
+    width: 35%;
+    text-align: right;
+}
+.play-section-img{
+    width: 100%;
+   
+}
+
+.top-img{
+    position: absolute;
+    top: 320px;
+    right: 430px; 
+}
+.top-img img{
+    width: 80%;
+}
