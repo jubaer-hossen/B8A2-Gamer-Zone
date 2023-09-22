@@ -400,6 +400,23 @@ footer {
     .footer-link a {
         padding: 10px;
     }
+    .play-container{
+        width: 70%;
+        text-align: center;
+    }
+    .play-container2{
+        width: 70%;
+        text-align: center;
+    }
+    .top-img {
+        top: 580px;
+        right: 210px;
+    }
+    .top-img2 {
+        top: 210px;
+        left: 210px;
+    }
+    
 
 
 }
