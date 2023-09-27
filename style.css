@@ -5,7 +5,7 @@ h1 {
 }
 
 .header-text {
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -19,7 +19,10 @@ h1 {
 .btn-primary {
     padding: 10px 20px;
     border-radius: 48px;
-    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background: var(
+        --Linear,
+        linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+    );
     color: white;
     border: none;
     font-size: 18px;
@@ -50,7 +53,6 @@ nav {
     width: 40px;
     height: 20px;
     margin-right: 10px;
-
 }
 
 .nav-section i {
@@ -59,12 +61,12 @@ nav {
 
 .follow-nav {
     border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10);
+    background: rgba(11, 2, 35, 0.1);
     padding: 10px 15px;
 }
 
 .primary-color {
-    color: #FF42A5;
+    color: #ff42a5;
     font-family: Work Sans;
     font-weight: 700;
 }
@@ -74,7 +76,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url('images/Group\ 14.png');
+    background-image: url("images/Group\ 14.png");
     background-position: left;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -85,7 +87,7 @@ nav {
 }
 
 .primary-text {
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -104,8 +106,6 @@ h3 {
     text-transform: uppercase;
 }
 
-
-
 /* We are gamer section  */
 .we-are-gamer {
     display: flex;
@@ -113,8 +113,11 @@ h3 {
     justify-content: space-around;
     text-align: right;
     height: 30vmax;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
-
+    background: linear-gradient(
+        90deg,
+        rgba(255, 66, 165, 0.03) 13.13%,
+        rgba(255, 66, 165, 0.03) 87.94%
+    );
 }
 
 .we-are-gamer img {
@@ -152,7 +155,6 @@ h3 {
     width: 100%;
     height: auto;
     transition: transform 0.3s, filter 0.3s;
-
 }
 
 .image-text {
@@ -160,7 +162,7 @@ h3 {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #F948B2;
+    color: #f948b2;
     opacity: 0;
     transition: opacity 0.3s;
 }
@@ -196,7 +198,6 @@ h3 {
 
 .play-section-img {
     width: 100%;
-
 }
 
 .top-img {
@@ -221,10 +222,15 @@ h3 {
 
 /* more games section  */
 .more-games-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
-    background: linear-gradient(90deg, rgba(255, 66, 164, 0.281) 13.13%, rgba(255, 66, 164, 0.315) 87.94%);
+    background: linear-gradient(
+        90deg,
+        rgba(255, 66, 164, 0.281) 13.13%,
+        rgba(255, 66, 164, 0.315) 87.94%
+    );
     border-radius: 10px;
     padding: 20px;
     pad: 10px;
@@ -249,14 +255,14 @@ h3 {
 }
 
 .more-games:hover {
-    border: 2px solid #FF42A5;
-    color: #FF42A5;
+    border: 2px solid #ff42a5;
+    color: #ff42a5;
     transform: scale(1.05);
 }
 
 /* footer section */
 footer {
-    background: #0B0223;
+    background: #0b0223;
     color: white;
     height: 80vh;
     display: flex;
@@ -400,11 +406,11 @@ footer {
     .footer-link a {
         padding: 10px;
     }
-    .play-container{
+    .play-container {
         width: 70%;
         text-align: center;
     }
-    .play-container2{
+    .play-container2 {
         width: 70%;
         text-align: center;
     }
@@ -416,7 +422,4 @@ footer {
         top: 210px;
         left: 210px;
     }
-    
-
-
 }
